@@ -1,0 +1,43 @@
+{
+  "order": {
+    "order_id": "b7bb0579-f703-4df4-8325-941e1b276572",
+    "product_id": "BTC-USDC",
+    "user_id": "2caa05b9-899c-5c6b-a9bd-2732bcb93416",
+    "order_configuration": {
+      "market_market_ioc": {
+        "quote_size": "9"
+      }
+    },
+    "side": "BUY",
+    "client_order_id": "JpCSNYvpCt20240531130619",
+    "status": "FILLED",
+    "time_in_force": "IMMEDIATE_OR_CANCEL",
+    "created_time": "2024-05-31T16:06:24.220166Z",
+    "completion_percentage": "100",
+    "filled_size": "0.0001331932770355",
+    "average_filled_price": "67034.7004540754465699",
+    "fee": "",
+    "number_of_fills": "3",
+    "filled_value": "8.9285714285714286",
+    "pending_cancel": false,
+    "size_in_quote": true,
+    "total_fees": "0.0714285714285714",
+    "size_inclusive_of_fees": true,
+    "total_value_after_fees": "9",
+    "trigger_status": "INVALID_ORDER_TYPE",
+    "order_type": "MARKET",
+    "reject_reason": "REJECT_REASON_UNSPECIFIED",
+    "settled": true,
+    "product_type": "SPOT",
+    "reject_message": "",
+    "cancel_message": "",
+    "order_placement_source": "RETAIL_ADVANCED",
+    "outstanding_hold_amount": "0",
+    "is_liquidation": false,
+    "last_fill_time": "2024-05-31T16:06:24.350625418Z",
+    "edit_history": [],
+    "leverage": "",
+    "margin_type": "UNKNOWN_MARGIN_TYPE",
+    "retail_portfolio_id": "2caa05b9-899c-5c6b-a9bd-2732bcb93416"
+  }
+}

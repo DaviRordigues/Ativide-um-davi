@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      host: ${MONGODB_HOST:localhost}
+      port: ${MONGODB_PORT:27017}
+      database: ${MONGODB_DATABASE:order-management}
+      username: ${MONGODB_USERNAME:admin}
+      password: ${MONGODB_PASSWORD:admin}
+
+api:
+  coinbase-connector:
+    base-url: ${COINBASE-CONNECTOR-BASE-URL:http://3.94.159.205}
+    api-key: ${API-KEY:organizations/e0877482-6368-4188-abb9-e3666c2ae7db/apiKeys/3f2a4c6d-c51b-4ad4-8141-17f332dfa706}
+    api-secret: ${API-SECRET:-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIAVM0dD4SbCkC2zdHhagoYc/Vtx1GEd6uv6k82Vgvm5moAoGCCqGSM49\nAwEHoUQDQgAE0d9pM0yLMRMNMVRNr3mYu0IxqlwmVHh+XNoegHo4X41rGr268Dl4\n0oM2diZ2UpG4tGiiyYXqdRa+QXCP1JXtzg==\n-----END EC PRIVATE KEY-----\n}
+
+strategy:
+  profit: 1.02

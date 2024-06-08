@@ -1,0 +1,24 @@
+spring:
+  data:
+    mongodb:
+      host: ${MONGODB_HOST:localhost}
+      port: ${MONGODB_PORT:27017}
+      database: ${MONGODB_DATABASE:order-management}
+      username: ${MONGODB_USERNAME:admin}
+      password: ${MONGODB_PASSWORD:admin}
+  cloud:
+    openfeign:
+      client:
+        config:
+          default:
+            loggerLevel: full
+
+
+api:
+  coinbase-connector:
+    base-url: ${COINBASE-CONNECTOR-BASE-URL:http://3.94.159.205}
+    api-key: ${API-KEY:organizations/e0877482-6368-4188-abb9-e3666c2ae7db/apiKeys/3f2a4c6d-c51b-4ad4-8141-17f332dfa706}
+    api-secret: ${API-SECRET:LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tXG5NSGNDQVFFRUlBVk0wZEQ0U2JDa0MyemRIaGFnb1ljL1Z0eDFHRWQ2dXY2azgyVmd2bTVtb0FvR0NDcUdTTTQ5XG5Bd0VIb1VRRFFnQUUwZDlwTTB5TE1STU5NVlJOcjNtWXUwSXhxbHdtVkhoK1hOb2VnSG80WDQxckdyMjY4RGw0XG4wb00yZGlaMlVwRzR0R2lpeVlYcWRSYStRWENQMUpYdHpnPT1cbi0tLS0tRU5EIEVDIFBSSVZBVEUgS0VZLS0tLS1cbg==}
+
+strategy:
+  profit: 1.02
